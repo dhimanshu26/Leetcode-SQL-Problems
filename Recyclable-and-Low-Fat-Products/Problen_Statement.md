@@ -9,8 +9,8 @@
 | recyclable  | enum    |
 +-------------+---------+
 ```
-`product_id:` [primary key] (column with unique values) for this table.
-`low_fats:` ENUM (category) of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.
+`product_id:` [primary key] (column with unique values) for this table.\
+`low_fats:` ENUM (category) of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.\
 `recyclable:` ENUM (category) of types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.
  
 
