@@ -30,8 +30,8 @@ The result format is in the following example.
 
 ### Example 1:
 #### Input:
+`Employees table:`
 ```
-Employees table:
 +----+----------+
 | id | name     |
 +----+----------+
@@ -42,8 +42,9 @@ Employees table:
 | 3  | Jonathan |
 +----+----------+
 ```
+
+`EmployeeUNI table:`
 ```
-EmployeeUNI table:
 +----+-----------+
 | id | unique_id |
 +----+-----------+
