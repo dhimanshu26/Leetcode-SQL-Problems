@@ -6,5 +6,5 @@ SELECT id,
                  ELSE LAG (student) OVER (ORDER BY id)
              END,
              student)    AS student
-    FROM xxbackup.seat
+    FROM seat
 ORDER BY id;
